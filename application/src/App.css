@@ -1,0 +1,31 @@
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.mui-select {
+    min-width: 500px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .mui-select {
+        min-width: 300px;
+    }
+
+    .mainContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mui-select {
+        min-width: 300px;
+    }
+
+    .mainContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

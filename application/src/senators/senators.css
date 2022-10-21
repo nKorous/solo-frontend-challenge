@@ -1,0 +1,15 @@
+.senators-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .senators-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        margin-top: 25px;
+    }
+}

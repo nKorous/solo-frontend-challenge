@@ -1,0 +1,12 @@
+.table-container {
+    height: 600px;
+    overflow-y: auto;    
+}
+
+.table-tr {
+    cursor: pointer;
+}
+
+.table-tr:hover {
+    background: lightgray;
+}
